@@ -3,11 +3,13 @@
   --secondary-color: #f5f2fe;
 }
 
+.body,
 body {
-  margin: 130px 0px;
   background-color: #dbd3ca;
 }
-
+body {
+  margin: 130px 0px;
+}
 h1,
 h2,
 h3 {
@@ -34,10 +36,11 @@ h3 {
 p {
   margin: 0px 20px;
   font-size: 24px;
-  line-height: 1;
-  font-family: "Bellefair", serif;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: rgb(68, 68, 68);
 }
 .navbar-brand {
   font-family: "Satisfy", cursive;
@@ -98,7 +101,104 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-@media (max-width: 576px) {
+
+.intro {
+  margin: 30px;
+}
+.contentPage h2 {
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: bold;
+}
+.contentPage h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+.btn-branding {
+  font-family: "Poppins", sans-serif;
+  background: rgb(68, 68, 68);
+  color: white;
+  border-radius: 45px !important;
+  font-size: 18px !important;
+  line-height: 27px !important;
+  padding: 15px 30px !important;
+}
+
+.content h2 {
+  text-align: center;
+
+  line-height: 80px;
+
+  font-weight: bold;
+}
+.content p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+
+  font-family: "Poppins", sans-serif;
+}
+.contentt {
+  padding: 150px 120px;
+}
+.more-content {
+  margin: 30px;
+}
+.contentt h2 {
+  font-size: 64px;
+  line-height: 80px;
+
+  font-weight: bold;
+}
+.contentt h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.contentt p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.footer-part {
+  background: #f9f7fe;
+  padding: 30px;
+}
+
+footer h3 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+.contact-section {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
+footer {
+  margin: 100px 0px;
+  text-align: center;
+}
+
+footer i {
+  margin: 20px;
+  color: rgb(68, 68, 68);
+  font-size: 17px;
+  background: #f9f7fe;
+  padding: 10px;
+  border-radius: 30px;
+}
+footer i:hover {
+  color: #f9f7fe;
+  background: rgb(68, 68, 68);
+}
+
+@media (max-width: 992px) {
   .primary-link {
     padding: 16px 11px;
   }
@@ -121,5 +221,17 @@ p {
   p {
     font-size: 20px;
     line-height: 1.5;
+  }
+  .contentPage h2 {
+    font-size: 54px;
+
+    font-size: 44px;
+  }
+
+  .contentPage {
+    text-align: center;
+  }
+  .contentt {
+    text-align: center;
   }
 }
